@@ -253,7 +253,7 @@ struct kgsl_device {
 	struct idr context_idr;
 	rwlock_t context_lock;
 
-#if 0
+#if 1
 	struct {
 		void *ptr;
 		u32 size;
